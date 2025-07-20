@@ -8,7 +8,7 @@ interface IProps {
 }
 
 const CustomSearch = ({
-  placeholder = "Bundesland, Ort oder Postleitzahl",
+  placeholder = "",
   value = "",
   onChange,
 }: IProps) => {
